@@ -1,0 +1,171 @@
+html,body
+{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+  /* For mobile devices */
+  @media (max-width: 360px) {
+    .innerbox{
+      width: 350px;
+    }
+  }
+.innerbox
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.2);
+}
+.resultbox
+{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.roundbox {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+  }
+  h1{
+    color: hsl(0, 0%, 100%);
+  }
+  p{
+    color: hsl(0, 0%, 100%);
+  }
+  
+.summarybox{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.redvaluebox
+{
+    background-color: hsl(0, 100%, 94%);
+    padding: 10px;
+    display: flex;
+    border-radius:8px ;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+.redvaluename
+{
+    color: hsl(0, 100%, 67%);
+    margin-left: 10px;
+    width: 62px;
+}
+
+.orangevaluebox
+{
+    background-color: hwb(39 75% 0%);
+    padding: 10px;
+    display: flex;
+    border-radius:8px ;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+.orangevaluename
+{
+    color: hsl(39, 100%, 56%);
+    margin-left: 10px;
+    width: 62px;
+}
+
+.greenvaluebox
+{
+    background-color: hsl(166, 100%, 90%);
+    padding: 10px;
+    display: flex;
+    border-radius:8px ;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+.greenvaluename
+{
+    color: hsl(166, 100%, 37%);
+    margin-left: 10px;
+    width: 62px;
+}
+
+.bluevaluebox
+{
+    background-color: hsl(234, 100%, 90%);
+    padding: 10px;
+    display: flex;
+    border-radius:8px ;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+.bluevaluename
+{
+    color: hsl(234, 85%, 45%);
+    margin-left: 10px;
+    width: 62px;
+}
+.value{
+    margin-left: 140px;
+    color:hsl(0, 0%, 33%);
+}
+.outoff
+{
+    color:hsl(0, 0%, 59%);
+}
+
+.summary
+{
+    color: hsl(228, 28%, 28%);
+}
+button{
+    height: 40px;
+    border-radius: 50px;
+    background-color: hsl(228, 28%, 28%);
+    border: 0px;
+    color:hsl(0, 0%, 100%);
+    width: 280px;
+}
+.tittlename{
+    font-weight: 800;
+    color:hsla(0, 0%, 89%, 0.92); 
+}
+.content{
+    width: 180px;
+    font-weight: 200;
+    font-size:small;
+    color:hsla(0, 0%, 89%, 0.92); 
+    text-align: center;
+}
+.roundoutoff{
+    color:hsla(0, 0%, 89%, 0.92); 
+}
